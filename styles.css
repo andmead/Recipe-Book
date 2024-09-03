@@ -1,0 +1,84 @@
+:root {
+  color-scheme: light dark;
+}
+
+#header {
+  text-align: center;
+}
+
+#recipes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: 44%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: rgba(58, 58, 58, 0.39);
+}
+
+.recipe img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.ingredients {
+  font-size: large;
+  display: none;
+  justify-self: start;
+  align-content: center;
+}
+
+.steps {
+  display: none;
+  font-size: large;
+}
+
+a {
+  color: rgb(182, 52, 52);
+  width: fit-content;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(182, 52, 52);
+}
+
+h2:hover {
+  color: #ff0000;
+  width: fit-content;
+}
+
+h3 {
+  background-color: #ff000080;
+  width: fit-content;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+button.toggleButton {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #ff000080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggleButton:hover {
+  background-color: #ff6a6a80;
+}
+
+footer {
+  text-align: center;
+}
